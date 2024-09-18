@@ -1,0 +1,95 @@
+/* default de estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color:whitesmoke;
+}
+
+/* nav */
+.img__logo {
+  height: 100px;
+  width: 250px;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/hero_v2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.container__hero{
+  height: 100%;
+  border:0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  margin-top: 118px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container__hero__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__hero {
+  height: 300x;
+  width: 300px;
+}
+
+.hero__title{
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 60px;
+}
+
+.hero__description{
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+
+}
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
