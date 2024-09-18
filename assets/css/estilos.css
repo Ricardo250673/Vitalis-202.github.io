@@ -50,6 +50,7 @@ body {
 .img__hero {
   height: 300x;
   width: 300px;
+  border-radius: 50px;
 }
 
 .hero__title{
